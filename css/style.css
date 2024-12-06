@@ -1,17 +1,45 @@
+/*globales*/
+html{
+    box-sizing: border-box;
+
+    font-size: 90.5%;
+}
+
 body{
     background-color:black;
     font-size: 1.6rem;
 }
 
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.naranja{
+    color: chocolate;
+}
+
+/*encabezado*/
+.encabezado{
+    text-align: center;
+}
+
+.parrafo-encabezado{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 /*titulo*/
-h1{
+.titulo{
     color: chocolate;
     font-size: 3rem;
-    text-align: center;
     font-family: monospace;
 }
 
-h2{
+.titulo-h2{
     color: chocolate;
     font-size: 3rem;
     font-family: monospace;   
@@ -20,8 +48,11 @@ h2{
 
 }
 
-.naranja{
-    color: chocolate;
+/*texto*/
+.parrafo{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /*enlaces*/
@@ -45,15 +76,44 @@ a:hover{
 
 }
 
-/*texto*/
-p{
-    color: white;
-    font-size: 1.5rem;
-    font-family: 'Courier New', Courier, monospace;
+/*separador*/
+.separador{
+    background-image: url(../img/caracteristicas-del-lenguaje-de-programacion-swift-scaled.jpg);
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
+    margin-top: 30px;
 }
 
-.texto{
+.separador::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(17, 17, 17, 0.5);
+    z-index: -1;
+}
+
+.contenido-separador{
+    padding: 5rem;
+}
+
+.contenido-separador, .titulo-h2_separador{
+    font-size: 5rem;
+    color:forestgreen;
     text-align: center;
+    font-family: monospace;   
+}
+
+.contenido-separador, .parrafo-separador{
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;    
 }
 
 /*imagen, para centrar la imagen*/
@@ -166,4 +226,3 @@ button:hover{
 footer{
     text-align: center;
 }
-
