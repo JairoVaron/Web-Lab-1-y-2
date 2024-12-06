@@ -1,0 +1,169 @@
+body{
+    background-color:black;
+    font-size: 1.6rem;
+}
+
+/*titulo*/
+h1{
+    color: chocolate;
+    font-size: 3rem;
+    text-align: center;
+    font-family: monospace;
+}
+
+h2{
+    color: chocolate;
+    font-size: 3rem;
+    font-family: monospace;   
+    border-bottom: 2px solid forestgreen;
+    padding-bottom: 5px;
+
+}
+
+.naranja{
+    color: chocolate;
+}
+
+/*enlaces*/
+.enlaces{
+    text-align: center; /*tuve que usar div para centrar esto XD*/
+}
+
+a{
+    margin: 0 15px;
+    font-family: monospace;
+    font-size: 1.7rem;
+    text-decoration: none;
+    color:forestgreen;
+    transition: color o.3s ease;
+    
+}
+
+/*para cambiar el color del las letras cuando el mause pase por encima*/
+a:hover{
+    color:chartreuse;
+
+}
+
+/*texto*/
+p{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.texto{
+    text-align: center;
+}
+
+/*imagen, para centrar la imagen*/
+img{
+    display: block;
+    width: 60%;
+    margin: auto;
+
+}
+
+/*lista*/
+ul, ol{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+}
+
+/*tabla*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    color: chocolate;
+    font-size: 2em;
+    font-family: monospace; 
+}
+
+td {
+    color:forestgreen;
+    font-family: 'Courier New', Courier, monospace;  
+    font-size: 1.5rem;  
+}
+
+/*formulario*/
+form {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+fieldset{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+legend{
+    color: chocolate;
+    font-size: 2em;
+    font-family: monospace;
+}
+
+label{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    display: block;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid forestgreen;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+    background-color:black;
+}
+
+.rellenar{
+    color: white;
+}
+
+/*boton*/
+button{
+    margin: 0 15px;
+    font-family: monospace;
+    font-size: 1.7rem;
+    background-color: forestgreen;
+    color: white;
+    transition: color o.3s ease;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover{
+    background-color: chartreuse;
+    color: white;
+}
+
+/*pie de pagina*/
+footer{
+    text-align: center;
+}
+

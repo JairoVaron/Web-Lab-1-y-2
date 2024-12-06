@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil - Laboratorio 1 y 2 – Fundamentos de Programación, HTML y GIT</title>
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>            
+
+    <!--titulo-->
+    <h1>Mi Hoja de Vida</h1>
+    <p class="texto">Un espacio para mostrar las habilidades de Jairo Varón.</p>
+
+    <!--enlaces-->
+    <div class="enlaces">
+        <a href="#datos">Datos Persolanes</a>
+        <a href="#mi">Hacerca de Mí</a>
+        <a href="#pasatiempo">Pasatiempos</a>
+        <a href="#tarea">Tareas Pendientes</a>
+        <a href="#tabla">Tabla de Parentescos</a>
+        <a href="#formulario">Formulario</a>
+    </div>
+
+    <!--texto-->
+    <h2 id="datos">Datos Personales</h2><!--id es para vinvular el h2 con los enlaces a-->
+    <p><span class="naranja">Nombre:</span> Jairo De Jesus</p>
+    <p><span class="naranja">Profesion:</span>Profesion: Varon Hernandez</p>
+    <p><span class="naranja">Profesion:</span> Estudiante de Ing. Sistemas</p>
+    <p><span class="naranja">Redes Sociales:</span>
+        <a href="https://www.linkedin.com/in/jairo-varon-590648323/">Linkedin</a>
+        <a href="https://github.com/JairoVaron">GitHub</a>
+        <a href="https://replit.com/@jairovaron404">Replit</a>
+    </p>
+
+    <h2 id="mi">Hacerca de Mí</h2>
+    <p>
+        Hola, soy Jairo Varón, estudiante de Ingenieria de Sistemas de la Universidad de La Guajira.
+        Este espacio en la web está diseñado para compartir mis habilidades abquiridas a lo largo de este curso de programacion.
+    </p>
+    
+    <!--imagen-->
+    <figure>
+        <img src="img/Add-a-subheading.jpg" alt="hola mundo"> 
+    </figure>
+
+    <!--lista desordenada-->
+    <h2 id="pasatiempo">Pasatiempos</h2>
+    <ul>
+        <li>Amo leer y escribir.</li>
+        <li>Me gusta jugar videjuegos.</li>
+        <li>Soy bueno para hacer manualidades.</li>
+    </ul>
+
+    <!--lista ordenada-->
+    <h2 id="tarea">Tareas Pendientes</h2>
+    <ol>
+        <li>Tengo que hacer todas las tareas.</li>
+        <li>Voy a limpiar mi cuarto.</li>
+        <li>Necesito practicar mi codigo, programas.</li>
+    </ol>
+
+    <!--tabla-->
+    <h2 id="tabla">Tabla de Parentescos</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Familiares</th>
+                <th>Parentesco</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Jaime</td> <!--familiares-->
+            <td>Padre</td> <!--parentesco-->
+        </tr>
+        <tr>
+            <td>Cleotilde </td>
+            <td>Madre</td>
+        </tr>
+        <tr>
+            <td>Moises</td>
+            <td>Hermano</td>
+        </tr>
+    </table>
+
+    <!--formulario-->
+    <h2 id="formulario">Formulario</h2>
+
+    <form action="form">
+        <!-- Datos personales -->
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="nombre" class="for_label-name">Nombre</label><br>
+            <input type="text" name="nombre" id="nombre" class="rellenar" required><br>
+            
+            <label for="ape" class="for_label-ape">Apellido</label><br>
+            <input type="text" name="ape" id="ape" class="rellenar" required><br>
+            
+            <label for="user" class="for_label-user">Usuario</label><br>
+            <input type="text" name="user" id="user" class="rellenar" required><br>
+            
+            <label for="pass" class="for_label-pass">Contraseña</label><br>
+            <input type="password" name="pass" id="pass" class="rellenar" required><br>
+        </fieldset>
+
+        <!-- Información adicional -->
+        <fieldset>
+            <legend>Información personal adicional</legend>
+            
+            <label for="phone" class="for_label-phone">Teléfono</label><br>
+            <input type="tel" name="phone" id="phone" class="rellenar" required><br>
+          
+            <label for="correo" class="for_label-email">Correo</label><br>
+            <input type="email" name="correo" id="correo" class="rellenar" required><br>
+          
+            <label for="direccion" class="for_label-direccion">Dirección</label><br>
+            <input type="text" name="direccion" id="direccion" class="rellenar" required><br>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <!--pie de pagina-->
+    <footer>
+        <p>Todos los derechos reservados &copy; 2024 Mi Hoja de Vida, desarrollado por Jairo Varón</p>
+    </footer> 
+
+</body>
+</html>
