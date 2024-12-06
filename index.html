@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Pagina Web</title>
+    <link rel="stylesheet" href="access/css/style.css"> 
+    <script src="/access/js/script.js" defer></script>
+</head>
+<body>            
+
+    <!--!titulo-->
+    <header class="encabezado contenedor">
+        <h1 class="titulo">Mi Hoja de Vida</h1>
+        <p class="parrafo-encabezado">Un espacio para mostrar las habilidades de Jairo Varón.</p>
+    </header>
+
+    <!--!enlaces-->
+    <div class="enlaces contenedor">
+        <a href="#datos">Datos Persolanes</a>
+        <a href="#mi">Hacerca de Mí</a>
+        <a href="#pasatiempo">Pasatiempos</a>
+        <a href="#tarea">Tareas Pendientes</a>
+        <a href="#tabla">Tabla de Parentescos</a>
+        <a href="#titulo-formulario">Formulario</a>
+    </div>
+
+    <!--!separador-->
+    <div class="separador">
+        <div class="contenido-separador contenedor">
+            <h2 class="titulo-h2_separador">¡Bienvenido!</h2>
+            <p class="parrafo-separador">Estoy feliz por verte</p>
+        </div>
+    </div>
+
+    <!--!texto-->
+    <div class="contenedor">
+        <h2 class="titulo-h2" id="datos">Datos Personales</h2><!--id es para vinvular el h2 con los enlaces a-->
+        <p class="parrafo"><span class="naranja">Nombre:</span> Jairo De Jesus</p>
+        <p class="parrafo"><span class="naranja">Profesion:</span>Profesion: Varon Hernandez</p>
+        <p class="parrafo"><span class="naranja">Profesion:</span> Estudiante de Ing. Sistemas</p>
+        <p class="parrafo"><span class="naranja">Redes Sociales:</span>
+            <a href="https://www.linkedin.com/in/jairo-varon-590648323/">Linkedin</a>
+            <a href="https://github.com/JairoVaron">GitHub</a>
+            <a href="https://replit.com/@jairovaron404">Replit</a>
+        </p>
+    </div>
+
+    <!--!texto e imagen-->
+    <div class="contenedor">
+        <h2 class="titulo-h2" id="mi">Hacerca de Mí</h2>
+        <p class="parrafo">
+            Hola, soy Jairo Varón, estudiante de Ingenieria de Sistemas de la Universidad de La Guajira.
+            Este espacio en la web está diseñado para compartir mis habilidades abquiridas a lo largo de este curso de programacion.
+        </p>
+
+        <!--imagen-->
+        <figure>
+            <img src="visual/img/Add-a-subheading.jpg" alt="hola mundo"> 
+        </figure>
+
+        <h2 class="titulo-h2">Proyecto Adjunto</h2>
+        <p class="parrafo">
+            Se abjuntará el programa de un calculadora usando javascript. 
+            <a href="calculadora/index.html">Calculadora</a>
+        </p>
+    </div>
+
+    <!--!listas-->
+    <div class="contenedor">
+
+        <!--lista desordenada-->
+        <h2 class="titulo-h2" id="pasatiempo">Pasatiempos</h2>
+        <ul>
+            <li>Amo leer y escribir.</li>
+            <li>Me gusta jugar videjuegos.</li>
+            <li>Soy bueno para hacer manualidades.</li>
+        </ul>
+
+        <!--lista ordenada-->
+        <h2 class="titulo-h2" id="tarea">Tareas Pendientes</h2>
+        <ol>
+            <li>Tengo que hacer todas las tareas.</li>
+            <li>Voy a limpiar mi cuarto.</li>
+            <li>Necesito practicar mi codigo, programas.</li>
+        </ol>
+    </div>
+
+    <!--!tabla de familiares-->
+    <div class="contenedor">
+        <h2 class="titulo-h2" id="tabla">Tabla de Parentescos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Familiares</th>
+                    <th>Parentesco</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Jaime</td> <!--familiares-->
+                <td>Padre</td> <!--parentesco-->
+            </tr>
+            <tr>
+                <td>Cleotilde </td>
+                <td>Madre</td>
+            </tr>
+            <tr>
+                <td>Moises</td>
+                <td>Hermano</td>
+            </tr>
+        </table>
+    </div>
+
+    <!--!tabla bien estructurada-->
+    <div class="contenedor">
+        <h2 class="titulo-h2" id="tabla">Horario de Clases</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miercoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Matematicas</td> <!--lunes-->
+                <td>Fisica</td> <!--martes-->
+                <td>Ingles</td> <!--miercoles-->
+                <td>Biologia</td> <!--jueves-->
+                <td>Castellano</td> <!--viernes-->
+            </tr>
+            <tr>
+                <td>Matematicas</td>
+                <td>Fisica</td> 
+                <td>Ingles</td> 
+                <td>Biologia</td> 
+                <td>Castellano</td>
+            </tr>
+            <tr>
+                <td>Matematicas</td>
+                <td>Fisica</td> 
+                <td>Ingles</td>
+                <td>Biologia</td> 
+                <td>Castellano</td>
+            </tr>
+            <tr>
+                <td>Matematicas</td>
+                <td>Fisica</td> 
+                <td>Ingles</td>
+                <td>Biologia</td> 
+                <td>Castellano</td>
+            </tr>
+            <tr>
+                <td>Matematicas</td>
+                <td>Fisica</td> 
+                <td>Ingles</td>
+                <td>Biologia</td> 
+                <td>Castellano</td>
+            </tr>
+        </table>
+    </div>
+
+    <!--!formulario-->
+    <div class="contenedor">
+        <h2 class="titulo-h2" id="titulo-formulario">Formulario</h2>
+        <form class="formulario" id="contacFormulario" idaction="form">
+            <!--todo: Datos personales -->
+            <fieldset>
+                <legend>Datos personales</legend>
+                <!--grupo nombre-->
+                <label for="nombre" class="for_label-name">Nombre</label>
+                <input type="text" class="rellenar" name="nombre" placeholder="Escriba su nombre" id="nombre" required>
+                <!--grupo apellido-->
+                <label for="apellido" class="for_label-apellido">Apellido</label>
+                <input type="text" class="rellenar" name="apellido" placeholder="Escriba su apellido" id="apellido" required>
+                <!--grupo usuario-->
+                <label for="user" class="for_label-user">Usuario</label><br>
+                <input type="text" name="user" placeholder="Escriba su usuario" id="user" class="rellenar" required><br>
+                <!--grupo contraseña-->
+                <label for="pass" class="for_label-pass">Contraseña</label><br>
+                <input type="password" name="pass" placeholder="Escriba su contraseña" id="pass" class="rellenar" required><br>
+            </fieldset>
+            <!--todo: Información adicional -->
+            <fieldset>
+                <legend>Información personal adicional</legend>
+                
+                <!--grupo telefono-->
+                <label for="phone" class="for_label-phone">Teléfono</label><br>
+                <input type="tel" name="phone" placeholder="Escriba su telefono" id="phone" class="rellenar" required><br>
+                <!--grupo correo-->
+                <label for="correo" class="for_label-email">Correo</label><br>
+                <input type="email" name="correo" placeholder="Escriba su correo" id="correo" class="rellenar" required><br>
+                <!--grupo direccion-->
+                <label for="direccion" class="for_label-direccion">Dirección</label><br>
+                <input type="text" name="direccion" placeholder="Escriba su direccion" id="direccion" class="rellenar" required><br>
+            </fieldset>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <!--!pie de pagina-->
+    <footer>
+        <p class="parrafo">Todos los derechos reservados &copy; 2024 Mi Hoja de Vida, desarrollado por Jairo Varón</p>
+    </footer> 
+
+</body>
+</html>
